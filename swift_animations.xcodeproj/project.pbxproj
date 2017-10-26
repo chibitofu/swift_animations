@@ -14,6 +14,8 @@
 		7372854F1FA1D7D80058E242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7372854D1FA1D7D80058E242 /* LaunchScreen.storyboard */; };
 		7372855A1FA1D7D80058E242 /* swift_animationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737285591FA1D7D80058E242 /* swift_animationsTests.swift */; };
 		737285651FA1D7D80058E242 /* swift_animationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737285641FA1D7D80058E242 /* swift_animationsUITests.swift */; };
+		737285751FA1D8A70058E242 /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 737285731FA1D8A70058E242 /* penguin.png */; };
+		737285761FA1D8A70058E242 /* penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737285741FA1D8A70058E242 /* penguin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		737285601FA1D7D80058E242 /* swift_animationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_animationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		737285641FA1D7D80058E242 /* swift_animationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_animationsUITests.swift; sourceTree = "<group>"; };
 		737285661FA1D7D80058E242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737285731FA1D8A70058E242 /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
+		737285741FA1D8A70058E242 /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		737285431FA1D7D80058E242 /* swift_animations */ = {
 			isa = PBXGroup;
 			children = (
+				737285721FA1D8A70058E242 /* Content */,
 				737285441FA1D7D80058E242 /* AppDelegate.swift */,
 				737285461FA1D7D80058E242 /* ViewController.swift */,
 				737285481FA1D7D80058E242 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				737285661FA1D7D80058E242 /* Info.plist */,
 			);
 			path = swift_animationsUITests;
+			sourceTree = "<group>";
+		};
+		737285721FA1D8A70058E242 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				737285731FA1D8A70058E242 /* penguin.png */,
+				737285741FA1D8A70058E242 /* penguin@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737285751FA1D8A70058E242 /* penguin.png in Resources */,
 				7372854F1FA1D7D80058E242 /* LaunchScreen.storyboard in Resources */,
 				7372854C1FA1D7D80058E242 /* Assets.xcassets in Resources */,
 				7372854A1FA1D7D80058E242 /* Main.storyboard in Resources */,
+				737285761FA1D8A70058E242 /* penguin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
